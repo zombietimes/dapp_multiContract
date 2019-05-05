@@ -6,11 +6,11 @@ This is a sample application of DApps.
 It is created as a project of Truffle framework.  
 It allows accessing to Ganache(Ethereum) and Loom Network.  
 It allows accessing through Express server(application server).  
-[DApps : Medium](https://medium.com/swlh/understanding-dapps-decentralized-applications-8f3668ebdc9a)  
-[Truffle : Official](https://truffleframework.com/)  
-[Ganache : Official](https://truffleframework.com/docs/ganache/overview)  
-[Loom Network SDK : Official](https://loomx.io/developers/)  
-[Express : Official](https://expressjs.com/)  
+- [DApps : Medium](https://medium.com/swlh/understanding-dapps-decentralized-applications-8f3668ebdc9a)  
+- [Truffle : Official](https://truffleframework.com/)  
+- [Ganache : Official](https://truffleframework.com/docs/ganache/overview)  
+- [Loom Network SDK : Official](https://loomx.io/developers/)  
+- [Express : Official](https://expressjs.com/)  
 
 ## Description
 Let's run and analyze the sample DApps.  
@@ -30,7 +30,7 @@ I hope to be useful to you when you develop DApps.
 ### Setting up the development environment.
 The script file [setup0000_all](https://github.com/zombietimes/setup0000_all) is useful to set up the development environment.  
 It consists of the external script files below.  
-[setup0000_all](https://github.com/zombietimes/setup0000_all)  
+- [setup0000_all](https://github.com/zombietimes/setup0000_all)  
 
 ### Environment
 This script file is for Ubuntu(Linux).  
@@ -56,7 +56,7 @@ git clone https://github.com/zombietimes/dapp_multiContract.git
 cd dapp_multiContract
 sh ./ubuntuCmd_setupDapp_multiContract.sh
 ```
-![dapp_multiContract_0000.png]()  
+![dapp_multiContract_0000](https://user-images.githubusercontent.com/50263232/57186684-b05b8280-6f1e-11e9-8121-230eaec5157f.png)  
 
 ### Truffle console to Ganache
 The next step is the operation on Truffle console.  
@@ -70,9 +70,9 @@ instance.Write('A zombie likes zombies.').then()
 instance.Read().then()
 .exit
 ```
-![dapp_multiContract_0001.png]()  
-![dapp_multiContract_0002.png]()  
-![dapp_multiContract_0003.png]()  
+![dapp_multiContract_0001](https://user-images.githubusercontent.com/50263232/57186689-c10bf880-6f1e-11e9-81de-9f20bd4258ef.png)  
+![dapp_multiContract_0002](https://user-images.githubusercontent.com/50263232/57186691-cff2ab00-6f1e-11e9-930e-6bdca48ab3b6.png)  
+![dapp_multiContract_0003](https://user-images.githubusercontent.com/50263232/57186696-daad4000-6f1e-11e9-9306-aa843d5afb34.png)  
 
 ### Web server to Ganache
 The next step is the operation on Ubuntu console.  
@@ -83,7 +83,7 @@ You can get and set a message by using it.
 cd ~/dapps/deploy/by_truffle/accessor
 node ./to_importZombies.js
 ```
-![dapp_multiContract_0004.png]()  
+![dapp_multiContract_0004](https://user-images.githubusercontent.com/50263232/57186699-e993f280-6f1e-11e9-9054-15d98d53ac45.png)  
 
 ### Browser to Web server to Ganache
 The final step is web browsing.  
@@ -98,8 +98,8 @@ node ./bin/www
 # Browser.
 http://127.0.0.1:3000
 ```
-![dapp_multiContract_0005.png]()  
-![dapp_multiContract_0006.png]()  
+![dapp_multiContract_0005](https://user-images.githubusercontent.com/50263232/57186701-f87aa500-6f1e-11e9-9fd6-d368dda57b51.png)  
+![dapp_multiContract_0006](https://user-images.githubusercontent.com/50263232/57186705-016b7680-6f1f-11e9-9298-0a3199eeb070.png)  
 
 ## Requirement
 I confirmed that it works on Ubuntu Desktop 18.04 in VirtualBox.  
@@ -108,25 +108,25 @@ It works on the environment below.
 - Google Chrome.
 - [setup0000_all](https://github.com/zombietimes/setup0000_all)
 
-## Relative links
+## Relative link
 ### Overview
-[Ethereum : Official](https://www.ethereum.org/)  
-[Ethereum : Wikipedia](https://en.wikipedia.org/wiki/Ethereum)  
-[Loom Network : Official](https://loomx.io/)  
-[Loom Network : Binance wiki](https://info.binance.com/en/currencies/loom-network)  
+- [Ethereum : Official](https://www.ethereum.org/)
+- [Ethereum : Wikipedia](https://en.wikipedia.org/wiki/Ethereum)
+- [Loom Network : Official](https://loomx.io/)
+- [Loom Network : Binance wiki](https://info.binance.com/en/currencies/loom-network)
 
 ### Development
-[Online editor : EthFiddle](https://ethfiddle.com/)  
-[Online editor : Remix](https://remix.ethereum.org/)  
+- [Online editor : EthFiddle](https://ethfiddle.com/)
+- [Online editor : Remix](https://remix.ethereum.org/)
 
 ### Learning
-[Online learning : CryptoZombies](https://cryptozombies.io/)  
-[Grammar : Solidity](https://solidity.readthedocs.io/)  
-[Grammar : Best Practices](https://github.com/ConsenSys/smart-contract-best-practices)  
+- [Online learning : CryptoZombies](https://cryptozombies.io/)
+- [Grammar : Solidity](https://solidity.readthedocs.io/)
+- [Grammar : Best Practices](https://github.com/ConsenSys/smart-contract-best-practices)
 
 ### DApps
-[DApps : CryptoKitties](https://www.cryptokitties.co/)  
-[DApps : Zombie Battle ground](https://loom.games/en/)  
+- [DApps : CryptoKitties](https://www.cryptokitties.co/)
+- [DApps : Zombie Battle ground](https://loom.games/en/)
 
 ## Messages
 Do you believe that the decentralized world is coming?  
@@ -135,7 +135,4 @@ Why?
 
 ## License
 BSD 3-Clause, see `LICENSE` file for details.  
-
----
-Produced by Zombie Times  
 
